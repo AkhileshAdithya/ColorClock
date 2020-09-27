@@ -31,7 +31,7 @@ class App extends React.Component{
   }
   render() {
     return (
-      <div style = {{backgroundColor: `#${this.state.time}`, color: "white", width: '100vw', height: '100vh', textAlign: 'center', verticalAlign: 'middle', lineHeight: '100vh', fontSize: '5vh'}}>
+      <div style = {{backgroundColor: `#${this.state.time}`, color: "white", width: '100vw', height: '100vh', textAlign: 'center', verticalAlign: 'middle', lineHeight: '100vh', fontSize: '5vh', transition: '0.5s'}}>
         {`#${this.state.time}`}       
       </div>
     )
